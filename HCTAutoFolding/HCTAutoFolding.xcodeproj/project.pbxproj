@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC4C31741B9BDDA30044E2AE /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC4C31731B9BDDA30044E2AE /* AppKit.framework */; };
+		CC4C31761B9BDDA30044E2AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC4C31751B9BDDA30044E2AE /* Foundation.framework */; };
+		CC4C317B1B9BDDA30044E2AE /* HCTAutoFolding.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = CC4C317A1B9BDDA30044E2AE /* HCTAutoFolding.xcscheme */; };
+		CC4C317E1B9BDDA30044E2AE /* HCTAutoFolding.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4C317D1B9BDDA30044E2AE /* HCTAutoFolding.m */; };
+		CC4C31811B9BDDA30044E2AE /* NSObject_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4C31801B9BDDA30044E2AE /* NSObject_Extension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CC4C31701B9BDDA30044E2AE /* HCTAutoFolding.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HCTAutoFolding.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC4C31731B9BDDA30044E2AE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		CC4C31751B9BDDA30044E2AE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		CC4C31791B9BDDA30044E2AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC4C317A1B9BDDA30044E2AE /* HCTAutoFolding.xcscheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = HCTAutoFolding.xcscheme; path = HCTAutoFolding.xcodeproj/xcshareddata/xcschemes/HCTAutoFolding.xcscheme; sourceTree = SOURCE_ROOT; };
+		CC4C317C1B9BDDA30044E2AE /* HCTAutoFolding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCTAutoFolding.h; sourceTree = "<group>"; };
+		CC4C317D1B9BDDA30044E2AE /* HCTAutoFolding.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCTAutoFolding.m; sourceTree = "<group>"; };
+		CC4C317F1B9BDDA30044E2AE /* NSObject_Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSObject_Extension.h; sourceTree = "<group>"; };
+		CC4C31801B9BDDA30044E2AE /* NSObject_Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSObject_Extension.m; sourceTree = "<group>"; };
+		CC4C31881B9BDF790044E2AE /* xCodeHaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xCodeHaders.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC4C316E1B9BDDA30044E2AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC4C31741B9BDDA30044E2AE /* AppKit.framework in Frameworks */,
+				CC4C31761B9BDDA30044E2AE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC4C31671B9BDDA30044E2AE = {
+			isa = PBXGroup;
+			children = (
+				CC4C31771B9BDDA30044E2AE /* HCTAutoFolding */,
+				CC4C31721B9BDDA30044E2AE /* Frameworks */,
+				CC4C31711B9BDDA30044E2AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC4C31711B9BDDA30044E2AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC4C31701B9BDDA30044E2AE /* HCTAutoFolding.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC4C31721B9BDDA30044E2AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC4C31731B9BDDA30044E2AE /* AppKit.framework */,
+				CC4C31751B9BDDA30044E2AE /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC4C31771B9BDDA30044E2AE /* HCTAutoFolding */ = {
+			isa = PBXGroup;
+			children = (
+				CC4C31881B9BDF790044E2AE /* xCodeHaders.h */,
+				CC4C317C1B9BDDA30044E2AE /* HCTAutoFolding.h */,
+				CC4C317D1B9BDDA30044E2AE /* HCTAutoFolding.m */,
+				CC4C317F1B9BDDA30044E2AE /* NSObject_Extension.h */,
+				CC4C31801B9BDDA30044E2AE /* NSObject_Extension.m */,
+				CC4C31781B9BDDA30044E2AE /* Supporting Files */,
+			);
+			path = HCTAutoFolding;
+			sourceTree = "<group>";
+		};
+		CC4C31781B9BDDA30044E2AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC4C31791B9BDDA30044E2AE /* Info.plist */,
+				CC4C317A1B9BDDA30044E2AE /* HCTAutoFolding.xcscheme */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC4C316F1B9BDDA30044E2AE /* HCTAutoFolding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC4C31841B9BDDA30044E2AE /* Build configuration list for PBXNativeTarget "HCTAutoFolding" */;
+			buildPhases = (
+				CC4C316C1B9BDDA30044E2AE /* Sources */,
+				CC4C316D1B9BDDA30044E2AE /* Resources */,
+				CC4C316E1B9BDDA30044E2AE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HCTAutoFolding;
+			productName = HCTAutoFolding;
+			productReference = CC4C31701B9BDDA30044E2AE /* HCTAutoFolding.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC4C31681B9BDDA30044E2AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Thilina Hewagama";
+				TargetAttributes = {
+					CC4C316F1B9BDDA30044E2AE = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = CC4C316B1B9BDDA30044E2AE /* Build configuration list for PBXProject "HCTAutoFolding" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CC4C31671B9BDDA30044E2AE;
+			productRefGroup = CC4C31711B9BDDA30044E2AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC4C316F1B9BDDA30044E2AE /* HCTAutoFolding */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC4C316D1B9BDDA30044E2AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC4C317B1B9BDDA30044E2AE /* HCTAutoFolding.xcscheme in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC4C316C1B9BDDA30044E2AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC4C317E1B9BDDA30044E2AE /* HCTAutoFolding.m in Sources */,
+				CC4C31811B9BDDA30044E2AE /* NSObject_Extension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CC4C31821B9BDDA30044E2AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		CC4C31831B9BDDA30044E2AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+			};
+			name = Release;
+		};
+		CC4C31851B9BDDA30044E2AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = HCTAutoFolding/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		CC4C31861B9BDDA30044E2AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = HCTAutoFolding/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC4C316B1B9BDDA30044E2AE /* Build configuration list for PBXProject "HCTAutoFolding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC4C31821B9BDDA30044E2AE /* Debug */,
+				CC4C31831B9BDDA30044E2AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC4C31841B9BDDA30044E2AE /* Build configuration list for PBXNativeTarget "HCTAutoFolding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC4C31851B9BDDA30044E2AE /* Debug */,
+				CC4C31861B9BDDA30044E2AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC4C31681B9BDDA30044E2AE /* Project object */;
+}
