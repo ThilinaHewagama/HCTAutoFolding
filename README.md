@@ -1,9 +1,11 @@
 # HCTAutoFolding
 xCode plugin which fold all methods of a source file when opening.
 <br/>
-<i>by Thilina Chamin Hewagama 
-(<a href="http://stackoverflow.com/users/1716859/?tab=profile">Who am I ?</a>)
-</i>
+<i>by Thilina Chamin Hewagama</i> <br/>
+<a href="http://stackoverflow.com/users/1716859/thilina-chamin-hewagama">
+<img src="http://stackoverflow.com/users/flair/1716859.png" width="208" height="58" alt="profile for Thilina Chamin Hewagama at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for Thilina Chamin Hewagama at Stack Overflow, Q&amp;A for professional and enthusiast programmers">
+</a>
+
 <br/>
 <h2>How to install</h2>
 1) Download the project<br/>
