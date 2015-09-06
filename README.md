@@ -19,5 +19,9 @@ xCode plugin which fold all methods of a source file when opening.
 <br/>
 <br/>
 <br/>
+<br/>
+<br/>
+<br/>
+<br/>
 <h4>Tips (best practices)</h4>
 <img src="https://github.com/ThilinaHewagama/HCTAutoFolding/blob/master/HCTAutoFolding/tips.jpg">
