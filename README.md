@@ -14,7 +14,7 @@ xCode plugin which fold all methods of a source file when opening.
 3) Quit xCode & Re-Launch<br/>
 
 <br/>
-<i>Note: Tested with xCode 6.4 (supports above xCode 6)</i>
+<i>Note: Tested with xCode 6.4 (supports xCode 6 & above)</i>
 <br/>
 <br/>
 <br/>
