@@ -1,5 +1,5 @@
 # HCTAutoFolding
-<img src="https://github.com/ThilinaHewagama/HCTAutoFolding/blob/master/HCTAutoFolding/hctautofolding_screen_shot.jpg"\>
+<img src="https://github.com/ThilinaHewagama/HCTAutoFolding/blob/master/HCTAutoFolding/hctautofolding_screen_shot.jpg">
 xCode plugin which fold all methods of a source file when opening.
 <br/>
 <i>by Thilina Chamin Hewagama</i> <br/>
